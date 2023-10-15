@@ -187,6 +187,7 @@ h3 {
 	align-items: center;
 	justify-content: center;
 	border-radius: 4px;
+	margin-bottom: 8px;
 }
 /* Main Page - section 2 */
 
@@ -228,7 +229,30 @@ h3 {
 	letter-spacing: 0.02em;
 	text-align: center;
 	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.section3_socials-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 24px;
+	fill: var(--light);
 	padding-bottom: 32px;
+}
+.section3_socials-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background-color: var(--primary-brand);
+	border-radius: 50%;
+}
+.section3_socials-item:hover {
+	border-radius: 50%;
+	cursor: pointer;
+	fill: var(--light);
+	background-color: var(--success);
 }
 
 /* footer */
