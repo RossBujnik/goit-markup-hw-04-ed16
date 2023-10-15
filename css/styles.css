@@ -139,7 +139,13 @@ h3 {
 /* hero */
 
 .hero {
+	background-image: linear-gradient(
+			var(--hero-background),
+			rgba(46, 47, 66, 0.7)
+		),
+		url("../images/image-17.jpg");
 	background-color: var(--dark);
+	overflow: hidden;
 	height: 600px;
 }
 .hero_button {
@@ -174,6 +180,9 @@ h3 {
 	line-height: 1, 5;
 	letter-spacing: 0.02em;
 	padding-top: 8px;
+}
+.section1_svg {
+	fill: currentColor;
 }
 /* Main Page - section 2 */
 
