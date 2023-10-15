@@ -165,6 +165,9 @@ h3 {
 	border-radius: 4px;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+.hero_button-look:hover {
+	background-color: var(--pressed-state);
+}
 
 /* Main Page section 1 */
 
@@ -263,17 +266,26 @@ h3 {
 	justify-content: space-between;
 	flex-wrap: nowrap;
 	fill: var(--subtle-title);
+	gap: 24px;
+	padding-bottom: 120px;
 }
 .customers_item {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.customers_svg {
 	border-radius: 4px;
 	border: 1px solid;
 	border-color: var(--subtle-title);
-}
-.customers_svg {
+	width: 168px;
+	height: 88px;
 	padding: 16px 32px;
+}
+.customers_svg:hover {
+	fill: var(--pressed-state);
+	border-color: var(--pressed-state);
+	cursor: pointer;
 }
 
 /* footer */
@@ -340,6 +352,12 @@ h3 {
 	background-color: var(--primary-brand);
 	border-radius: 50%;
 }
+.footer_socials-item:hover {
+	border-radius: 50%;
+	cursor: pointer;
+	fill: var(--light);
+	background-color: var(--success);
+}
 
 /* Filters*/
 
@@ -389,6 +407,12 @@ h3 {
 .portfolio_item {
 	display: flex;
 	flex-direction: column;
+}
+.portfolio_item:hover {
+	box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+		0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+		0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+	cursor: pointer;
 }
 .portfolio_content {
 	padding-inline: 16px;
