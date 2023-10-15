@@ -182,7 +182,7 @@ h3 {
 	padding-top: 8px;
 }
 .section1_svg {
-	fill: currentColor;
+	background-color: var(--light);
 }
 /* Main Page - section 2 */
 
