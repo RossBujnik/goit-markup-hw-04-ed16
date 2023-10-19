@@ -12,6 +12,7 @@
 }
 .container {
 	width: 1158px;
+	padding: 0 15px;
 	margin: 0 auto;
 }
 /* paleta kolorów */
@@ -148,11 +149,12 @@ h3 {
 	background-color: var(--dark);
 	overflow: hidden;
 	height: 600px;
+	width: 1440px;
 }
 .hero_button {
 	display: flex;
 	justify-content: center;
-	padding-top: 48px;
+	margin-top: 48px;
 }
 .hero_button-look {
 	color: var(--white-background);
@@ -175,7 +177,7 @@ h3 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-top: 120px;
+	margin-top: 120px;
 	gap: 24px;
 }
 .section1_svg {
@@ -191,7 +193,7 @@ h3 {
 	font-size: 16px;
 	line-height: 1, 5;
 	letter-spacing: 0.02em;
-	padding-top: 8px;
+	margin-top: 8px;
 }
 /* Main Page - section 2 */
 
@@ -199,7 +201,7 @@ h3 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-bottom: 120px;
+	margin-bottom: 120px;
 }
 
 /* Main Page - section 3 */
@@ -211,7 +213,6 @@ h3 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-top: 72px;
 	padding-bottom: 120px;
 }
 .section3_item {
@@ -267,7 +268,7 @@ h3 {
 	flex-wrap: nowrap;
 	fill: var(--subtle-title);
 	gap: 24px;
-	padding-bottom: 120px;
+	margin-bottom: 120px;
 }
 .customers_item {
 	display: flex;
